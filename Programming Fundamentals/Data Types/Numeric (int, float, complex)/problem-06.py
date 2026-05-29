@@ -15,4 +15,4 @@ try:
     else:
         print(f"{num} is not palindrome")
 except ValueError:
-    print("Please enter valid number")
+    print("Please enter a valid integer!")

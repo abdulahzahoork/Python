@@ -3,9 +3,9 @@
 
 try: 
     age = int(input("Enter your age: "))
-    is_Citizen = bool(input("Are you a citizen [True/False]: "))
+    is_citizen = input("Are you a citizen? (yes/no) ").strip().lower()
 
-    if (age >= 18 and is_Citizen == True):
+    if (age >= 18 and is_citizen == "yes"):
         print("Person can vote.")
     else:
         print("Person cannot vote.")

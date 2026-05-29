@@ -7,7 +7,6 @@ print(x != y)
 
 # <-------------------------------------------->
 # My Prediction:
-# (x == y) will print 1
-# (x > y) will print 0
-# (x != y) will print 0
-
+# (x == y) will print True
+# (x > y) will print False
+# (x != y) will print False

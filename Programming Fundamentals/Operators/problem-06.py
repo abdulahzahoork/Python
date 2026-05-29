@@ -3,3 +3,6 @@
 print(True and False or True) # Output: True 
 print(not True or False) # Output: False
 print(False and True or not False) # Output: True
+
+# Why: Because Precedence order: not → and → or
+# Always resolve higher-precedence operators first, left to right.
