@@ -2,8 +2,6 @@
 
 name = "Abdullah"
 age = 22
-city = "Lahore"
+city = "Sheikhupura"
 
-print(name)
-print(age)
-print(city)
+print(f"Name: {name} \nAge: {age} \nCity: {city}")
